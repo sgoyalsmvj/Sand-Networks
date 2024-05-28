@@ -13,14 +13,14 @@ const Data = () => {
   }, []);
 
   const fetchData = async () => {
-    const response = await axios.get("/data");
+    const response = await axios.get(`${import.meta.env.VITE_BASE_URL}/data`);
     setData(response.data);
     console.log(response.data);
   };
 
   const handleSubmit = async (ev) => {
     ev.preventDefault();
-    const response = await axios.post("/data", {
+    const response = await axios.post(`${import.meta.env.VITE_BASE_URL}/data`, {
       farmerName,
       week,
       plotType,
@@ -53,7 +53,9 @@ const Data = () => {
         </select>
         <button>Filter</button>
       </form>
-      <Link to={'/compare'}><button>Go to Compare Data</button></Link>
+      <Link to={"/compare"}>
+        <button>Go to Compare Data</button>
+      </Link>
       {data.map((farmerData, index) => {
         const farmerName = farmerData.farmerName;
         const farmerDetails = farmerData.farmerData;

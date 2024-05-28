@@ -5,7 +5,7 @@ import Compare from "./components/Compare";
 import Data from "./components/Data";
 import { Route, Routes } from "react-router-dom";
 
-axios.defaults.baseURL = import.meta.env.VITE_BASE_URL;
+// axios.defaults.baseURL = import.meta.env.VITE_BASE_URL;
 axios.defaults.withCredentials = true;
 function App() {
   return (

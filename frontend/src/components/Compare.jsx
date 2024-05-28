@@ -11,7 +11,7 @@ function Compare() {
 
   const handleCompare = async () => {
     try {
-      const response = await axios.post("/compare", {
+      const response = await axios.post(`${import.meta.env.VITE_BASE_URL}/compare`, {
         farmer1,
         plotType1,
         farmer2,
