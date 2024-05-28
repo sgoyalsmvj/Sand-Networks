@@ -1,0 +1,78 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input,
+select {
+  margin-right: 20px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+pre {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.App {
+  text-align: center;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+button {
+  margin: 20px;
+}
+
+.comparison-tables {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.table-container {
+  width: 45%;
+  overflow-x: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
