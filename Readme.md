@@ -13,7 +13,7 @@ This project is designed to compare the plot data of different farmers based on 
 - **Backend:** Node.js with Express.js for handling API requests and data processing.
 - **Frontend:** React.js, HTML, CSS, and JavaScript for creating the user interface and handling user interactions.
 - **Data Storage:** JSON file (`data.json`) for storing the farmer plot data.
-- **Additional Libraries:**CORS for cross-origin resource sharing.
+- **Additional Libraries:** CORS for cross-origin resource sharing.
 
 ## API Endpoints
 
